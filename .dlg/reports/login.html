@@ -63,17 +63,17 @@
 <body>
   <div class="header">
     <h1>DOM Locator Guard — Change Report</h1>
-    <h2 class="clean">✓ login</h2>
+    <h2 class="warning">⚠ login</h2>
     <div class="meta">
       <span>Page: login.html</span>
-      <span>Run: 20/03/2026, 02.18.56</span>
+      <span>Run: 20/03/2026, 02.27.56</span>
       <span>Baseline: 20/03/2026, 02.18.33</span>
     </div>
   </div>
 
   <div class="status-bar">
     <div class="stat">
-      <div class="num warning">0</div>
+      <div class="num warning">1</div>
       <div class="label">Locator changes</div>
     </div>
     <div class="stat">
@@ -86,7 +86,38 @@
     </div>
   </div>
 
-  <div class="empty-state"><div class="icon">✓</div><p>All locators are stable. No changes detected.</p></div>
+  
+      <div class="element-card">
+        <div class="element-header">
+          <span class="element-label">&lt;button&gt; &quot;kirim&quot;</span>
+          <span class="confidence">93% confidence</span>
+        </div>
+        <div class="code-snippet">
+          <div class="code-header">📍 Line 13, Col 3</div>
+          <div class="code-body"><div class="code-line"><span class="line-num">11</span><span class="line-code">  &lt;input type=&quot;text&quot; id=&quot;username&quot;&gt;</span></div><div class="code-line"><span class="line-num">12</span><span class="line-code">  &lt;input type=&quot;text&quot; id=&quot;email&quot;&gt;</span></div><div class="code-line changed"><span class="line-num">13</span><span class="line-code">  &lt;button id=&quot;kirimbtn&quot;&gt;kirim&lt;/button&gt;</span><span class="changed-marker">← berubah</span></div><div class="code-line"><span class="line-num">14</span><span class="line-code"></span></div><div class="code-line"><span class="line-num">15</span><span class="line-code">  &lt;script&gt;</span></div></div>
+        </div>
+        <table class="changes-table">
+          <thead><tr><th>Severity</th><th>Attribute</th><th>Previous</th><th>Current</th></tr></thead>
+          <tbody>
+        <tr>
+          <td><span class="badge badge-high">HIGH</span></td>
+          <td><code>id</code></td>
+          <td><code class="old">kirimBtn</code></td>
+          <td><code class="new">kirimbtn</code></td>
+        </tr>
+      </tbody>
+        </table>
+        <div class="reasons">
+          <strong>Why same element:</strong>
+          <ul><li>Same DOM position</li><li>Identical text content</li><li>Same element type</li><li>No visual data available</li><li>Same ARIA role</li></ul>
+        </div>
+        
+        <div class="suggestion">
+          <strong>Suggested locator:</strong>
+          <code>#kirimbtn</code>
+          <p>id berubah dari &quot;kirimBtn&quot; -&gt; &quot;kirimbtn&quot;. Update test kamu dari #kirimBtn ke #kirimbtn.</p>
+        </div>
+      </div>
 
 </body>
 </html>

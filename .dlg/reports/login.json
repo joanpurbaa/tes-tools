@@ -1,18 +1,127 @@
 {
-  "runId": "ebb15f40-fd22-4612-b9da-815cf4644f2f",
+  "runId": "8f4210c6-3267-45e7-b927-0b269a54a9f6",
   "featureName": "login",
   "pageUrl": "login.html",
-  "generatedAt": 1773947936607,
-  "status": "clean",
-  "totalElements": 0,
-  "changedCount": 0,
+  "generatedAt": 1773948476207,
+  "status": "warning",
+  "totalElements": 1,
+  "changedCount": 1,
   "addedCount": 0,
   "removedCount": 0,
-  "diffs": [],
-  "summary": "✓ [login] All locators stable — no changes detected",
+  "diffs": [
+    {
+      "elementLabel": "<button> \"kirim\"",
+      "verdict": "locator_changed",
+      "confidenceScore": 93,
+      "signals": {
+        "domPath": 1,
+        "textContent": 1,
+        "tagAndType": 1,
+        "visualPosition": 0.5,
+        "ariaRole": 1
+      },
+      "locatorChanges": [
+        {
+          "attribute": "id",
+          "previous": "kirimBtn",
+          "current": "kirimbtn",
+          "severity": "high",
+          "severityReason": "Attribute ini sangat umum digunakan sebagai locator selector"
+        }
+      ],
+      "baselineNode": {
+        "tagName": "button",
+        "textContent": "kirim",
+        "attributes": {
+          "id": "kirimBtn"
+        },
+        "locators": {
+          "classNames": [],
+          "id": "kirimBtn"
+        },
+        "domPath": "html > body > button",
+        "xpath": "/html/body/button",
+        "depth": 3,
+        "siblingIndex": 0,
+        "fingerprint": "ee633fdce22c7fcf",
+        "sourceLocation": {
+          "line": 13,
+          "column": 3,
+          "snippet": "<button id=\"kirimBtn\">kirim</button>",
+          "context": {
+            "before": [
+              "  <input type=\"text\" id=\"username\">\r",
+              "  <input type=\"text\" id=\"email\">\r"
+            ],
+            "line": "  <button id=\"kirimBtn\">kirim</button>\r",
+            "after": [
+              "\r",
+              "  <script>\r"
+            ]
+          }
+        },
+        "children": []
+      },
+      "currentNode": {
+        "tagName": "button",
+        "textContent": "kirim",
+        "attributes": {
+          "id": "kirimbtn"
+        },
+        "locators": {
+          "classNames": [],
+          "id": "kirimbtn"
+        },
+        "domPath": "html > body > button",
+        "xpath": "/html/body/button",
+        "depth": 3,
+        "siblingIndex": 0,
+        "fingerprint": "ee633fdce22c7fcf",
+        "sourceLocation": {
+          "line": 13,
+          "column": 3,
+          "snippet": "<button id=\"kirimbtn\">kirim</button>",
+          "context": {
+            "before": [
+              "  <input type=\"text\" id=\"username\">\r",
+              "  <input type=\"text\" id=\"email\">\r"
+            ],
+            "line": "  <button id=\"kirimbtn\">kirim</button>\r",
+            "after": [
+              "\r",
+              "  <script>\r"
+            ]
+          }
+        },
+        "children": []
+      },
+      "suggestedLocator": {
+        "selector": "#kirimbtn",
+        "reason": "id berubah dari \"kirimBtn\" -> \"kirimbtn\". Update test kamu dari #kirimBtn ke #kirimbtn.",
+        "priority": 5
+      },
+      "sourceLocation": {
+        "line": 13,
+        "column": 3,
+        "snippet": "<button id=\"kirimbtn\">kirim</button>",
+        "context": {
+          "before": [
+            "  <input type=\"text\" id=\"username\">\r",
+            "  <input type=\"text\" id=\"email\">\r"
+          ],
+          "line": "  <button id=\"kirimbtn\">kirim</button>\r",
+          "after": [
+            "\r",
+            "  <script>\r"
+          ]
+        }
+      }
+    }
+  ],
+  "summary": "⚠ [login] 1 locator change(s) detected",
   "meta": {
     "baselineTimestamp": 1773947913046,
-    "currentTimestamp": 1773947936605,
+    "currentTimestamp": 1773948476206,
     "baselineUrl": "login.html",
     "currentUrl": "login.html",
     "guardVersion": "0.2.0"
