@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Locator Guard Report — login</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+         background: #f8fafc; color: #1e293b; padding: 2rem; }
+  .header { background: #1e293b; color: #f8fafc; border-radius: 12px;
+            padding: 1.5rem 2rem; margin-bottom: 1.5rem; }
+  .header h1 { font-size: 1.1rem; font-weight: 600; opacity: 0.7; margin-bottom: 0.5rem; }
+  .header h2 { font-size: 1.6rem; font-weight: 700; }
+  .meta { display: flex; gap: 2rem; margin-top: 1rem; font-size: 0.85rem; opacity: 0.65; }
+  .status-bar { display: flex; gap: 1rem; margin-bottom: 1.5rem; }
+  .stat { background: white; border-radius: 10px; padding: 1rem 1.5rem;
+          border: 1px solid #e2e8f0; flex: 1; text-align: center; }
+  .stat .num { font-size: 2rem; font-weight: 700; }
+  .stat .label { font-size: 0.8rem; color: #64748b; margin-top: 0.25rem; }
+  .element-card { background: white; border-radius: 10px; padding: 1.5rem;
+                  border: 1px solid #e2e8f0; margin-bottom: 1rem; }
+  .element-header { display: flex; justify-content: space-between; align-items: center;
+                    margin-bottom: 1rem; padding-bottom: 0.75rem; border-bottom: 1px solid #f1f5f9; }
+  .element-label { font-weight: 600; font-family: monospace; font-size: 0.95rem; }
+  .confidence { background: #f0fdf4; color: #16a34a; padding: 0.25rem 0.75rem;
+                border-radius: 999px; font-size: 0.8rem; font-weight: 600; }
+  .changes-table { width: 100%; border-collapse: collapse; font-size: 0.875rem; margin-bottom: 1rem; }
+  .changes-table th { background: #f8fafc; padding: 0.5rem 0.75rem; text-align: left;
+                      font-weight: 600; color: #64748b; border-bottom: 1px solid #e2e8f0; }
+  .changes-table td { padding: 0.5rem 0.75rem; border-bottom: 1px solid #f1f5f9; }
+  .badge { padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.75rem; font-weight: 700; }
+  .badge-critical { background: #fee2e2; color: #991b1b; }
+  .badge-high { background: #fef3c7; color: #92400e; }
+  .badge-medium { background: #e0f2fe; color: #075985; }
+  .badge-low { background: #f0fdf4; color: #166534; }
+  code { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 0.875rem;
+         background: #f1f5f9; padding: 0.1rem 0.3rem; border-radius: 4px; }
+  code.old { background: #fee2e2; color: #991b1b; text-decoration: line-through; }
+  code.new { background: #dcfce7; color: #166534; }
+  .reasons { margin: 0.75rem 0; font-size: 0.875rem; }
+  .reasons ul { list-style: none; margin-top: 0.4rem; }
+  .reasons li::before { content: "✓ "; color: #16a34a; font-weight: bold; }
+  .suggestion { background: #f0f9ff; border-radius: 8px; padding: 0.75rem 1rem;
+                margin-top: 0.75rem; font-size: 0.875rem; }
+  .suggestion code { background: #dbeafe; color: #1d4ed8; }
+  .suggestion p { color: #475569; margin-top: 0.25rem; font-size: 0.8rem; }
+  .code-snippet { margin-bottom: 12px; border-radius: 8px; overflow: hidden; border: 1px solid #e2e8f0; }
+  .code-header { background: #1e293b; color: #94a3b8; padding: 6px 12px; font-size: 11px; font-family: monospace; }
+  .code-body { background: #0f172a; padding: 4px 0; }
+  .code-line { display: flex; align-items: baseline; gap: 12px; padding: 2px 12px; font-family: 'SF Mono','Fira Code',monospace; font-size: 12px; }
+  .code-line.changed { background: rgba(245,166,35,0.15); border-left: 3px solid #f5a623; }
+  .line-num { color: #475569; min-width: 28px; text-align: right; flex-shrink: 0; }
+  .line-code { color: #e2e8f0; white-space: pre; }
+  .changed-marker { color: #f5a623; font-size: 11px; margin-left: 12px; }
+  .clean { color: #16a34a; }
+  .warning { color: #d97706; }
+  .error { color: #dc2626; }
+  .empty-state { text-align: center; padding: 3rem; color: #64748b; }
+  .empty-state .icon { font-size: 3rem; margin-bottom: 1rem; }
+</style>
+</head>
+<body>
+  <div class="header">
+    <h1>DOM Locator Guard — Change Report</h1>
+    <h2 class="clean">✓ login</h2>
+    <div class="meta">
+      <span>Page: login.html</span>
+      <span>Run: 20/03/2026, 02.18.56</span>
+      <span>Baseline: 20/03/2026, 02.18.33</span>
+    </div>
+  </div>
+
+  <div class="status-bar">
+    <div class="stat">
+      <div class="num warning">0</div>
+      <div class="label">Locator changes</div>
+    </div>
+    <div class="stat">
+      <div class="num" style="color:#6366f1">0</div>
+      <div class="label">New elements</div>
+    </div>
+    <div class="stat">
+      <div class="num error">0</div>
+      <div class="label">Removed elements</div>
+    </div>
+  </div>
+
+  <div class="empty-state"><div class="icon">✓</div><p>All locators are stable. No changes detected.</p></div>
+
+</body>
+</html>

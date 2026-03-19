@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "dom-locator-guard": "^0.2.9"
+  }
+}

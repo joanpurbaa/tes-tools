@@ -1,0 +1,616 @@
+{
+  "featureName": "login",
+  "url": "login.html",
+  "timestamp": 1773947913046,
+  "guardVersion": "0.2.0",
+  "tree": {
+    "tagName": "body",
+    "textContent": "",
+    "attributes": {},
+    "locators": {
+      "classNames": []
+    },
+    "domPath": "html > body",
+    "xpath": "/html/body",
+    "depth": 2,
+    "siblingIndex": 0,
+    "fingerprint": "c1e06f3cacc28b92",
+    "sourceLocation": {
+      "line": 10,
+      "column": 1,
+      "snippet": "<body>",
+      "context": {
+        "before": [
+          "</head>\r",
+          "\r"
+        ],
+        "line": "<body>\r",
+        "after": [
+          "  <input type=\"text\" id=\"username\">\r",
+          "  <input type=\"text\" id=\"email\">\r"
+        ]
+      }
+    },
+    "children": [
+      {
+        "tagName": "input",
+        "textContent": "",
+        "attributes": {
+          "type": "text",
+          "id": "username"
+        },
+        "locators": {
+          "classNames": [],
+          "id": "username",
+          "type": "text"
+        },
+        "domPath": "html > body > input:nth-of-type(1)",
+        "xpath": "/html/body/input[1]",
+        "depth": 3,
+        "siblingIndex": 0,
+        "fingerprint": "4dc8f2cd32a64276",
+        "sourceLocation": {
+          "line": 11,
+          "column": 3,
+          "snippet": "<input type=\"text\" id=\"username\">",
+          "context": {
+            "before": [
+              "\r",
+              "<body>\r"
+            ],
+            "line": "  <input type=\"text\" id=\"username\">\r",
+            "after": [
+              "  <input type=\"text\" id=\"email\">\r",
+              "  <button id=\"kirimBtn\">kirim</button>\r"
+            ]
+          }
+        },
+        "children": []
+      },
+      {
+        "tagName": "input",
+        "textContent": "",
+        "attributes": {
+          "type": "text",
+          "id": "email"
+        },
+        "locators": {
+          "classNames": [],
+          "id": "email",
+          "type": "text"
+        },
+        "domPath": "html > body > input:nth-of-type(2)",
+        "xpath": "/html/body/input[2]",
+        "depth": 3,
+        "siblingIndex": 1,
+        "fingerprint": "b77601ff1802b567",
+        "sourceLocation": {
+          "line": 12,
+          "column": 3,
+          "snippet": "<input type=\"text\" id=\"email\">",
+          "context": {
+            "before": [
+              "<body>\r",
+              "  <input type=\"text\" id=\"username\">\r"
+            ],
+            "line": "  <input type=\"text\" id=\"email\">\r",
+            "after": [
+              "  <button id=\"kirimBtn\">kirim</button>\r",
+              "\r"
+            ]
+          }
+        },
+        "children": []
+      },
+      {
+        "tagName": "button",
+        "textContent": "kirim",
+        "attributes": {
+          "id": "kirimBtn"
+        },
+        "locators": {
+          "classNames": [],
+          "id": "kirimBtn"
+        },
+        "domPath": "html > body > button",
+        "xpath": "/html/body/button",
+        "depth": 3,
+        "siblingIndex": 0,
+        "fingerprint": "ee633fdce22c7fcf",
+        "sourceLocation": {
+          "line": 13,
+          "column": 3,
+          "snippet": "<button id=\"kirimBtn\">kirim</button>",
+          "context": {
+            "before": [
+              "  <input type=\"text\" id=\"username\">\r",
+              "  <input type=\"text\" id=\"email\">\r"
+            ],
+            "line": "  <button id=\"kirimBtn\">kirim</button>\r",
+            "after": [
+              "\r",
+              "  <script>\r"
+            ]
+          }
+        },
+        "children": []
+      }
+    ]
+  },
+  "index": {
+    "c1e06f3cacc28b92": {
+      "tagName": "body",
+      "textContent": "",
+      "attributes": {},
+      "locators": {
+        "classNames": []
+      },
+      "domPath": "html > body",
+      "xpath": "/html/body",
+      "depth": 2,
+      "siblingIndex": 0,
+      "fingerprint": "c1e06f3cacc28b92",
+      "sourceLocation": {
+        "line": 10,
+        "column": 1,
+        "snippet": "<body>",
+        "context": {
+          "before": [
+            "</head>\r",
+            "\r"
+          ],
+          "line": "<body>\r",
+          "after": [
+            "  <input type=\"text\" id=\"username\">\r",
+            "  <input type=\"text\" id=\"email\">\r"
+          ]
+        }
+      },
+      "children": [
+        {
+          "tagName": "input",
+          "textContent": "",
+          "attributes": {
+            "type": "text",
+            "id": "username"
+          },
+          "locators": {
+            "classNames": [],
+            "id": "username",
+            "type": "text"
+          },
+          "domPath": "html > body > input:nth-of-type(1)",
+          "xpath": "/html/body/input[1]",
+          "depth": 3,
+          "siblingIndex": 0,
+          "fingerprint": "4dc8f2cd32a64276",
+          "sourceLocation": {
+            "line": 11,
+            "column": 3,
+            "snippet": "<input type=\"text\" id=\"username\">",
+            "context": {
+              "before": [
+                "\r",
+                "<body>\r"
+              ],
+              "line": "  <input type=\"text\" id=\"username\">\r",
+              "after": [
+                "  <input type=\"text\" id=\"email\">\r",
+                "  <button id=\"kirimBtn\">kirim</button>\r"
+              ]
+            }
+          },
+          "children": []
+        },
+        {
+          "tagName": "input",
+          "textContent": "",
+          "attributes": {
+            "type": "text",
+            "id": "email"
+          },
+          "locators": {
+            "classNames": [],
+            "id": "email",
+            "type": "text"
+          },
+          "domPath": "html > body > input:nth-of-type(2)",
+          "xpath": "/html/body/input[2]",
+          "depth": 3,
+          "siblingIndex": 1,
+          "fingerprint": "b77601ff1802b567",
+          "sourceLocation": {
+            "line": 12,
+            "column": 3,
+            "snippet": "<input type=\"text\" id=\"email\">",
+            "context": {
+              "before": [
+                "<body>\r",
+                "  <input type=\"text\" id=\"username\">\r"
+              ],
+              "line": "  <input type=\"text\" id=\"email\">\r",
+              "after": [
+                "  <button id=\"kirimBtn\">kirim</button>\r",
+                "\r"
+              ]
+            }
+          },
+          "children": []
+        },
+        {
+          "tagName": "button",
+          "textContent": "kirim",
+          "attributes": {
+            "id": "kirimBtn"
+          },
+          "locators": {
+            "classNames": [],
+            "id": "kirimBtn"
+          },
+          "domPath": "html > body > button",
+          "xpath": "/html/body/button",
+          "depth": 3,
+          "siblingIndex": 0,
+          "fingerprint": "ee633fdce22c7fcf",
+          "sourceLocation": {
+            "line": 13,
+            "column": 3,
+            "snippet": "<button id=\"kirimBtn\">kirim</button>",
+            "context": {
+              "before": [
+                "  <input type=\"text\" id=\"username\">\r",
+                "  <input type=\"text\" id=\"email\">\r"
+              ],
+              "line": "  <button id=\"kirimBtn\">kirim</button>\r",
+              "after": [
+                "\r",
+                "  <script>\r"
+              ]
+            }
+          },
+          "children": []
+        }
+      ]
+    },
+    "path:html > body": {
+      "tagName": "body",
+      "textContent": "",
+      "attributes": {},
+      "locators": {
+        "classNames": []
+      },
+      "domPath": "html > body",
+      "xpath": "/html/body",
+      "depth": 2,
+      "siblingIndex": 0,
+      "fingerprint": "c1e06f3cacc28b92",
+      "sourceLocation": {
+        "line": 10,
+        "column": 1,
+        "snippet": "<body>",
+        "context": {
+          "before": [
+            "</head>\r",
+            "\r"
+          ],
+          "line": "<body>\r",
+          "after": [
+            "  <input type=\"text\" id=\"username\">\r",
+            "  <input type=\"text\" id=\"email\">\r"
+          ]
+        }
+      },
+      "children": [
+        {
+          "tagName": "input",
+          "textContent": "",
+          "attributes": {
+            "type": "text",
+            "id": "username"
+          },
+          "locators": {
+            "classNames": [],
+            "id": "username",
+            "type": "text"
+          },
+          "domPath": "html > body > input:nth-of-type(1)",
+          "xpath": "/html/body/input[1]",
+          "depth": 3,
+          "siblingIndex": 0,
+          "fingerprint": "4dc8f2cd32a64276",
+          "sourceLocation": {
+            "line": 11,
+            "column": 3,
+            "snippet": "<input type=\"text\" id=\"username\">",
+            "context": {
+              "before": [
+                "\r",
+                "<body>\r"
+              ],
+              "line": "  <input type=\"text\" id=\"username\">\r",
+              "after": [
+                "  <input type=\"text\" id=\"email\">\r",
+                "  <button id=\"kirimBtn\">kirim</button>\r"
+              ]
+            }
+          },
+          "children": []
+        },
+        {
+          "tagName": "input",
+          "textContent": "",
+          "attributes": {
+            "type": "text",
+            "id": "email"
+          },
+          "locators": {
+            "classNames": [],
+            "id": "email",
+            "type": "text"
+          },
+          "domPath": "html > body > input:nth-of-type(2)",
+          "xpath": "/html/body/input[2]",
+          "depth": 3,
+          "siblingIndex": 1,
+          "fingerprint": "b77601ff1802b567",
+          "sourceLocation": {
+            "line": 12,
+            "column": 3,
+            "snippet": "<input type=\"text\" id=\"email\">",
+            "context": {
+              "before": [
+                "<body>\r",
+                "  <input type=\"text\" id=\"username\">\r"
+              ],
+              "line": "  <input type=\"text\" id=\"email\">\r",
+              "after": [
+                "  <button id=\"kirimBtn\">kirim</button>\r",
+                "\r"
+              ]
+            }
+          },
+          "children": []
+        },
+        {
+          "tagName": "button",
+          "textContent": "kirim",
+          "attributes": {
+            "id": "kirimBtn"
+          },
+          "locators": {
+            "classNames": [],
+            "id": "kirimBtn"
+          },
+          "domPath": "html > body > button",
+          "xpath": "/html/body/button",
+          "depth": 3,
+          "siblingIndex": 0,
+          "fingerprint": "ee633fdce22c7fcf",
+          "sourceLocation": {
+            "line": 13,
+            "column": 3,
+            "snippet": "<button id=\"kirimBtn\">kirim</button>",
+            "context": {
+              "before": [
+                "  <input type=\"text\" id=\"username\">\r",
+                "  <input type=\"text\" id=\"email\">\r"
+              ],
+              "line": "  <button id=\"kirimBtn\">kirim</button>\r",
+              "after": [
+                "\r",
+                "  <script>\r"
+              ]
+            }
+          },
+          "children": []
+        }
+      ]
+    },
+    "4dc8f2cd32a64276": {
+      "tagName": "input",
+      "textContent": "",
+      "attributes": {
+        "type": "text",
+        "id": "username"
+      },
+      "locators": {
+        "classNames": [],
+        "id": "username",
+        "type": "text"
+      },
+      "domPath": "html > body > input:nth-of-type(1)",
+      "xpath": "/html/body/input[1]",
+      "depth": 3,
+      "siblingIndex": 0,
+      "fingerprint": "4dc8f2cd32a64276",
+      "sourceLocation": {
+        "line": 11,
+        "column": 3,
+        "snippet": "<input type=\"text\" id=\"username\">",
+        "context": {
+          "before": [
+            "\r",
+            "<body>\r"
+          ],
+          "line": "  <input type=\"text\" id=\"username\">\r",
+          "after": [
+            "  <input type=\"text\" id=\"email\">\r",
+            "  <button id=\"kirimBtn\">kirim</button>\r"
+          ]
+        }
+      },
+      "children": []
+    },
+    "path:html > body > input:nth-of-type(1)": {
+      "tagName": "input",
+      "textContent": "",
+      "attributes": {
+        "type": "text",
+        "id": "username"
+      },
+      "locators": {
+        "classNames": [],
+        "id": "username",
+        "type": "text"
+      },
+      "domPath": "html > body > input:nth-of-type(1)",
+      "xpath": "/html/body/input[1]",
+      "depth": 3,
+      "siblingIndex": 0,
+      "fingerprint": "4dc8f2cd32a64276",
+      "sourceLocation": {
+        "line": 11,
+        "column": 3,
+        "snippet": "<input type=\"text\" id=\"username\">",
+        "context": {
+          "before": [
+            "\r",
+            "<body>\r"
+          ],
+          "line": "  <input type=\"text\" id=\"username\">\r",
+          "after": [
+            "  <input type=\"text\" id=\"email\">\r",
+            "  <button id=\"kirimBtn\">kirim</button>\r"
+          ]
+        }
+      },
+      "children": []
+    },
+    "b77601ff1802b567": {
+      "tagName": "input",
+      "textContent": "",
+      "attributes": {
+        "type": "text",
+        "id": "email"
+      },
+      "locators": {
+        "classNames": [],
+        "id": "email",
+        "type": "text"
+      },
+      "domPath": "html > body > input:nth-of-type(2)",
+      "xpath": "/html/body/input[2]",
+      "depth": 3,
+      "siblingIndex": 1,
+      "fingerprint": "b77601ff1802b567",
+      "sourceLocation": {
+        "line": 12,
+        "column": 3,
+        "snippet": "<input type=\"text\" id=\"email\">",
+        "context": {
+          "before": [
+            "<body>\r",
+            "  <input type=\"text\" id=\"username\">\r"
+          ],
+          "line": "  <input type=\"text\" id=\"email\">\r",
+          "after": [
+            "  <button id=\"kirimBtn\">kirim</button>\r",
+            "\r"
+          ]
+        }
+      },
+      "children": []
+    },
+    "path:html > body > input:nth-of-type(2)": {
+      "tagName": "input",
+      "textContent": "",
+      "attributes": {
+        "type": "text",
+        "id": "email"
+      },
+      "locators": {
+        "classNames": [],
+        "id": "email",
+        "type": "text"
+      },
+      "domPath": "html > body > input:nth-of-type(2)",
+      "xpath": "/html/body/input[2]",
+      "depth": 3,
+      "siblingIndex": 1,
+      "fingerprint": "b77601ff1802b567",
+      "sourceLocation": {
+        "line": 12,
+        "column": 3,
+        "snippet": "<input type=\"text\" id=\"email\">",
+        "context": {
+          "before": [
+            "<body>\r",
+            "  <input type=\"text\" id=\"username\">\r"
+          ],
+          "line": "  <input type=\"text\" id=\"email\">\r",
+          "after": [
+            "  <button id=\"kirimBtn\">kirim</button>\r",
+            "\r"
+          ]
+        }
+      },
+      "children": []
+    },
+    "ee633fdce22c7fcf": {
+      "tagName": "button",
+      "textContent": "kirim",
+      "attributes": {
+        "id": "kirimBtn"
+      },
+      "locators": {
+        "classNames": [],
+        "id": "kirimBtn"
+      },
+      "domPath": "html > body > button",
+      "xpath": "/html/body/button",
+      "depth": 3,
+      "siblingIndex": 0,
+      "fingerprint": "ee633fdce22c7fcf",
+      "sourceLocation": {
+        "line": 13,
+        "column": 3,
+        "snippet": "<button id=\"kirimBtn\">kirim</button>",
+        "context": {
+          "before": [
+            "  <input type=\"text\" id=\"username\">\r",
+            "  <input type=\"text\" id=\"email\">\r"
+          ],
+          "line": "  <button id=\"kirimBtn\">kirim</button>\r",
+          "after": [
+            "\r",
+            "  <script>\r"
+          ]
+        }
+      },
+      "children": []
+    },
+    "path:html > body > button": {
+      "tagName": "button",
+      "textContent": "kirim",
+      "attributes": {
+        "id": "kirimBtn"
+      },
+      "locators": {
+        "classNames": [],
+        "id": "kirimBtn"
+      },
+      "domPath": "html > body > button",
+      "xpath": "/html/body/button",
+      "depth": 3,
+      "siblingIndex": 0,
+      "fingerprint": "ee633fdce22c7fcf",
+      "sourceLocation": {
+        "line": 13,
+        "column": 3,
+        "snippet": "<button id=\"kirimBtn\">kirim</button>",
+        "context": {
+          "before": [
+            "  <input type=\"text\" id=\"username\">\r",
+            "  <input type=\"text\" id=\"email\">\r"
+          ],
+          "line": "  <button id=\"kirimBtn\">kirim</button>\r",
+          "after": [
+            "\r",
+            "  <script>\r"
+          ]
+        }
+      },
+      "children": []
+    }
+  }
+}
