@@ -1,1 +1,3 @@
-node_modules/
+# DOM Locator Guard
+.dlg/
+node_modules

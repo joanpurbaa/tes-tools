@@ -1,0 +1,12 @@
+{
+  "threshold": 0.75,
+  "trackedAttributes": [
+    "id",
+    "name",
+    "dataTestId",
+    "dataCy",
+    "ariaLabel",
+    "class"
+  ],
+  "ignoreSelectors": []
+}
