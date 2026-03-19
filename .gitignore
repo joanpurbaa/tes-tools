@@ -1,3 +1,5 @@
 # DOM Locator Guard
 .dlg/
-node_modules
+
+# Dependencies
+node_modules/
